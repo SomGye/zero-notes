@@ -1,15 +1,18 @@
 {
+  "name": "zero-notes",
   "private": true,
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "npm run open-browser && next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "open-browser": "start http://localhost:3000"
   },
   "dependencies": {
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
     "gray-matter": "^4.0.3",
-    "next": "15.0.2",
+    "next": "~15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "remark": "^15.0.1",
